@@ -86,7 +86,7 @@ function App() {
  :
   state.tasks.map((task, id) => {
       return (
-        <div className='task flex justify-between align-center ' key={id}>
+        <div className='task flex justify-between lg:justify-around align-center ' key={id}>
          <div className=''>
           <p className='task-name text-gray-200 text-[1rem]'>{task.title}</p>
           <span className='duedate text-gray-200 text-[.8rem]'>{task.date}</span>
