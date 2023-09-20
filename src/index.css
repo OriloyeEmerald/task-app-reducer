@@ -6,18 +6,18 @@
 
 
 .task-input {
-  @apply bg-gray-200 appearance-none shadow border-2 rounded lg:w-[800px] w-full lg:py-[.8rem] py-[.4rem] px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 text-[.9rem] mb-[1rem]
+  @apply bg-gray-200 appearance-none shadow border-2 rounded lg:w-[800px] w-full lg:py-[.8rem] py-[.4rem] px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 text-[.9rem] mb-[.5rem]
 }
 
 .task-btn {
-  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-[.7rem] px-[.6rem] rounded mb-[2rem] text-[.9rem]
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-[.7rem] px-[.6rem] rounded mb-[1rem] text-[.9rem]
 }
 .del-btn {
   @apply bg-red-500 hover:bg-red-500 text-white font-bold py-[.5rem] px-[1.1rem] rounded mb-[2rem]
 }
 
 .task-date {
-  @apply bg-gray-200 appearance-none shadow border-2 rounded py-[.4rem] px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 mb-[1rem]
+  @apply bg-gray-200 appearance-none shadow border-2 rounded py-[.4rem] px-[.4rem] text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 mb-[.5rem] text-[.78rem]
 }
 
 body {

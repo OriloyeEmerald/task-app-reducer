@@ -75,8 +75,8 @@ function App() {
     />
 
     <div className='tasks'>
-      <h1 className='header-title text-[1.4rem] mb-[2rem] text-gray-200'>List Of Tasks:</h1>
-      <div className='flex lg:justify-center lg:gap-[6rem] justify-between mb-[2rem]'>
+      <h1 className='header-title text-[1.4rem] mb-[1rem] text-gray-200'>List Of Tasks:</h1>
+      <div className='flex lg:justify-center lg:gap-[6rem] justify-between mb-[1.5rem]'>
         <div className='border-b bg-blue-500 lg:w-[300px] w-[130px]'></div>
         <div className='border-b lg:w-[300px] w-[130px]'></div>
       </div>
@@ -86,7 +86,7 @@ function App() {
  :
   state.tasks.map((task, id) => {
       return (
-        <div className='task flex justify-between lg:justify-around align-center ' key={id}>
+        <div className='task flex justify-between text-left lg:justify-around align-center ' key={id}>
          <div className=''>
           <p className='task-name text-gray-200 text-[1rem]'>{task.title}</p>
           <span className='duedate text-gray-200 text-[.8rem]'>{task.date}</span>
