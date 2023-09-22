@@ -46,7 +46,9 @@ function App() {
       title: taskName,
       date: dueDate
     }
+   if(taskName.length) {
     dispatch({type: ADD_TASK, payload: newTask});
+   }
      setTaskName('');
      setDueDate('');
   }
